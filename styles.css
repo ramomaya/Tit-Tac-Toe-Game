@@ -1,0 +1,86 @@
+/* #tic-tac-toe-grid {
+  margin: 90px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+  grid-template-rows: repeat(3, 130px);
+  justify-content: center;
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: 'Permanent Marker', cursive;
+  color: #4b3621;
+  touch-action: none;
+  user-select: none;
+}
+
+.cell {
+  line-height: 130px;
+}
+
+.h {
+  border-bottom: 2.5px solid black;
+}
+
+.v {
+  border-left: 2.5px solid black;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 25px;
+  border: 1px solid black;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#new-game-btn {
+  display: none;
+} */
+
+#tic-tac-toe-grid {
+  margin: 90px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+  grid-template-rows: repeat(3, 130px);
+  justify-content: center;
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: 'Permanent Marker', cursive;
+  color: #0d0c0c;
+  touch-action: none;
+  user-select: none;
+}
+
+.cell {
+  line-height: 130px;
+  cursor: pointer;
+}
+
+.h {
+  border-bottom: 2.5px solid #171816;
+}
+
+.v {
+  border-left: 2.5px solid #1b1c1b;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 30px;
+  border: 1px solid rgb(7, 7, 7);
+  background: rgb(2, 2, 2) 1;
+  color: rgb(7, 7, 7);
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#new-game-btn {
+  display: none;
+}
+
+.winner {
+  color: green !important;
+}

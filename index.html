@@ -1,0 +1,42 @@
+<!-- tässä luodaan lautapeli ritinolla perusrakentella -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Skaalaa sivun mobiiliystävälliseksi säätämällä näkymän leveyden laitteen näytön leveydeksi -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- lataa Permanent-marker eli google fonttia -->
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet" />
+
+  <!-- haketaan stylestä tyyliä -->
+  <link href="styles.css" rel="stylesheet" />
+
+  <!-- tässä lisääämme TensorFlow kirjastoa -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+  <title>Tic Tac Toe Game - CodeSweetly</title>
+</head>
+
+<body>
+  <div id="tic-tac-toe-grid">
+    <!-- peliruudukon solut -->
+    <!-- jokainen span edustaa yhden rivi -->
+    <span class="cell r1 c1 d1 h">X</span>
+    <span class="cell r1 c2 h v"></span>
+    <span class="cell r1 c3 d2 h v">O</span>
+    <span class="cell r2 c1 h">X</span>
+    <span class="cell r2 c2 d1 d2 h v"></span>
+    <span class="cell r2 c3 h v">X</span>
+    <span class="cell r3 c1 d2">O</span>
+    <span class="cell r3 c2 v">O</span>
+    <span class="cell r3 c3 d1 v"></span>
+  </div>
+  <button id="play-game-btn">Play Game</button>
+  <button id="new-game-btn">New Game</button>
+  <script src="script3.js"></script>
+</body>
+
+</html>
